@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e6b3e6;
+  }
+  .header {
+  display: flex;
+  justify-content: space-between;
+  background-color:#ac39ac;
+  /* align-items: baseline; */
+  height: 5%;
+  }
+  
+  .logo{
+    width: 36%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+    size-adjust: 1%;
+    height: 50%;
+  }
+  .logo img{
+    width: 16%;
+    border: 30px solid white;
+    border-radius: 3px;
+    margin: 1%;
+    background-color: black;
+
+    
+}
+.head-title {
+  font-family: Lato;
+  color:#25081d;
+  margin: 1%;
+  background-color: rgb(250, 217, 250);
+  }
+
+  .head-btn {
+  width: 100px;
+  height: 2.5rem;
+  margin: 2%;
+  background-color: rgb(243, 180, 219);
+  border: none;
+  outline: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100%;
+  }
+  .card-body {
+  text-align: center;
+  color: rgb(58, 1, 49);
+  }
+  .card-img-top {
+  width: 95%;
+  }
+  .users-space {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12%;
+  }
+  .main {
+  border: 2px solid #ff03ab;
+  }
